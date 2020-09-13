@@ -19,3 +19,8 @@ phases:
       - yarn test
       - echo building...
       - yarn build
+artifacts:
+  files:
+    - "**/*"
+  discard-paths: no
+  base-directory: build
